@@ -67,18 +67,13 @@
 			for (var i = 0; i < len; i++) {
 				oButton[i].index = i;
 				oButton[i].onclick = function(){
-
-
-				
 					if (this.className) {
 						this.className="";
 						this.innerText="修改"
 						oInput[this.index].setAttribute("readonly","true");
 					} else {
-						
 						this.className="edit";
 						this.innerText = "确认"					
-							
 						oInput[this.index].removeAttribute("readonly");
 					}
 				}
