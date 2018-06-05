@@ -134,18 +134,31 @@
     <script type="text/JavaScript">
     	
     	var aPlusMinus = document.getElementsByClassName('plusMinus'),
-    		aSpan = aPlusMinus.getElementsByTagName('span'),
-    		aP = aPlusMinus.getElementsByTagName('p'),
+    		// aSpan = aPlusMinus.getElementsByTagName('span'),
+    		// aP = aPlusMinus.getElementsByTagName('p'),
     		num = 0
     		;
     		
     		for(var j = 0;j < aPlusMinus.length;j++){
-    			aPlusMinus[i].index = i;
-    			
-    			
-    			
-    			
-    		}
+    			aPlusMinus[j].index = j;
+    			var aSpan = aPlusMinus[j].getElementsByTagName('span'),
+					aP = aPlusMinus[j].getElementsByTagName('p')[0];
+
+    			aSpan[0].onclick = function (){
+                    if (aP.innerHTML<=0) {
+						alert("已为最小")
+					} else{
+						aP.innerHTML--;
+					}
+				};
+                aSpan[1].onclick = function (){
+                        aP.innerHTML++;
+                };
+
+
+
+
+            }
     		
     		
 //  		aSpan[0].onclick = function (){

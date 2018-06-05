@@ -69,11 +69,11 @@
 				oButton[i].onclick = function(){
 					if (this.className) {
 						this.className="";
-						this.innerText="修改"
+						this.innerText="修改";
 						oInput[this.index].setAttribute("readonly","true");
 					} else {
 						this.className="edit";
-						this.innerText = "确认"					
+						this.innerText = "确认";
 						oInput[this.index].removeAttribute("readonly");
 					}
 				}
