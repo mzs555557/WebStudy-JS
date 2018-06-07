@@ -68,6 +68,9 @@
 	.plusMinus span{
 		cursor: pointer;
 	}
+	//下方为总价计算
+
+
 </style>
 </head>
 <body>
@@ -127,7 +130,10 @@
 			</li>
 			<li class="countPrice">0</li>
 		</ul>
-		
+		<ul class="shopList">
+			<li class="count">0</li>
+			<li class="totalPrice">0</li>
+		</ul>
 	</section>
 
 
@@ -137,12 +143,16 @@
 			aPlusMinus = document.getElementsByClassName('plusMinus'),
 			aPrice = document.getElementsByClassName('price'),
 			aCountPrice = document.getElementsByClassName('countPrice'),
+			oCount = document.getElementsByClassName('count')[0],
+			oTotalPrice = document.getElementsByClassName('totalPrice')[0],
+
 
     		// aSpan = aPlusMinus.getElementsByTagName('span'),
     		// aP = aPlusMinus.getElementsByTagName('p'),
-    		num = 0
+    		
     		;
     		function fn(){
+    			let num = 0;
 				for(let j = 0;j < aPlusMinus.length;j++){
 					aPlusMinus[j].index = j;
 					aPrice[j].index = j;
@@ -150,6 +160,7 @@
 					let aSpan = aPlusMinus[j].getElementsByTagName('span'),
                     	aP = aPlusMinus[j].getElementsByTagName('p')[0];
 					aSpan[0].onclick = function (){
+						num++;
 						if (aP.innerHTML<=0) {
 							alert("已为最小")
 						} else{
@@ -158,23 +169,17 @@
 						}
 					};
 					aSpan[1].onclick = function (){
+							num++;
 							aP.innerHTML++;
 							aCountPrice[j].innerHTML = (aPrice[j].innerHTML)*(aP.innerHTML);
 					};
+					console.log(num);
 
                 }
+
             }
             fn();
-//  		aSpan[0].onclick = function (){
-//  			if (aP[0].innerHTML<=0) {
-//  				alert("已为最小")
-//  			} else{
-//  				aP[0].innerHTML--;
-//  			}
-//  		};
-//  		aSpan[1].onclick = function (){
-//  			aP[0].innerHTML++;
-//  		}
+
     </script>
 </body>
 </html>
