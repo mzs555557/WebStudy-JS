@@ -68,6 +68,17 @@
 	.plusMinus span{
 		cursor: pointer;
 	}
+    /*
+
+      上方为单个商品的总价,下面为计算商品的总数量及总价格
+
+    */
+
+    .finalCount {
+        display: flex;
+        border: 1px solid black;
+        justify-content: space-between;
+    }
 </style>
 </head>
 <body>
@@ -127,7 +138,11 @@
 			</li>
 			<li class="countPrice">0</li>
 		</ul>
-		
+
+        <ul class="shopList finalCount">
+            <li class="total">0</li>
+            <li class="totalPrice">0</li>
+        </ul>
 	</section>
 
 
@@ -137,10 +152,11 @@
 			aPlusMinus = document.getElementsByClassName('plusMinus'),
 			aPrice = document.getElementsByClassName('price'),
 			aCountPrice = document.getElementsByClassName('countPrice'),
-
-    		// aSpan = aPlusMinus.getElementsByTagName('span'),
+            oTotal = document.getElementsByClassName('total')[0],
+    	    oTotalPrice = document.getElementsByClassName('totalPrice')[0]
+            // aSpan = aPlusMinus.getElementsByTagName('span'),
     		// aP = aPlusMinus.getElementsByTagName('p'),
-    		num = 0
+
     		;
     		function fn(){
 				for(let j = 0;j < aPlusMinus.length;j++){
@@ -148,33 +164,30 @@
 					aPrice[j].index = j;
 					aCountPrice[j].index = j; 
 					let aSpan = aPlusMinus[j].getElementsByTagName('span'),
-                    	aP = aPlusMinus[j].getElementsByTagName('p')[0];
+                    	aP = aPlusMinus[j].getElementsByTagName('p')[0]
+
+                    ;
 					aSpan[0].onclick = function (){
 						if (aP.innerHTML<=0) {
 							alert("已为最小")
 						} else{
+                            oTotal.innerHTML--;
 							aP.innerHTML--;
 							aCountPrice[j].innerHTML -= aPrice[j].innerHTML;
-						}
+                            oTotalPrice.innerHTML -=aCountPrice[j].innerHTML;
+                        }
 					};
 					aSpan[1].onclick = function (){
+					        oTotal.innerHTML++;
 							aP.innerHTML++;
 							aCountPrice[j].innerHTML = (aPrice[j].innerHTML)*(aP.innerHTML);
+                            oTotalPrice.innerHTML -= -(aPrice[j].innerHTML);
 					};
 
                 }
             }
             fn();
-//  		aSpan[0].onclick = function (){
-//  			if (aP[0].innerHTML<=0) {
-//  				alert("已为最小")
-//  			} else{
-//  				aP[0].innerHTML--;
-//  			}
-//  		};
-//  		aSpan[1].onclick = function (){
-//  			aP[0].innerHTML++;
-//  		}
+
     </script>
 </body>
 </html>
