@@ -18,9 +18,10 @@
 		margin: 30px auto;
 		border: 1px solid red;
 	}
-	#wrap .search p{
-		display: inline-block;
+	#wrap .use input{
+
 		width: 30%;
+		height: 20px;
 		margin-left: 5%;
 		border: 1px solid red;
 
@@ -29,25 +30,66 @@
 		padding: 8px;
 		border: 1px solid red;
 	}
+	#wrap .content p{
+		font-size: 24px;
+	}
+	#wrap .content p span{
+		color: #ff0000;
+	}
 </style>
 </head>
 <body>
     <section id="wrap">
-    	<div class="search">
-    		<p contenteditable="true"></p>
+    	<div class="use">
+			<input type="text" value="">
     		<button>查找</button>
-    		<p contenteditable="true"></p>
+			<input type="text" value="">
     		<button>替换</button>
     	</div>
     	<div class="content">
-    		张家界是湖南省辖地级市，原名大庸市，辖2个市辖区（永定区、武陵源区）、2个县（慈利县、桑植县）。位于湖南西北部，澧水中上游，属武陵山区腹地。 [1]  张家界因旅游建市，是中国最重要的旅游城市之一，是湘鄂渝黔革命根据地的发源地和中心区域。
-			1982年9月，张家界国家森林公园成为中国第一个国家森林公园。
-			1988年8月，张家界武陵源风景名胜区被列入国家重点风景名胜区；1992年，由张家界国家森林公园等三大景区构成的武陵源风景名胜区被联合国教科文组织列入《世界自然遗产名录》；2004年2月，被列入全球首批《世界地质公园》；2007年，被列入中国首批国家5A级旅游景区。 [2]  2017年，被授予“国家森林城市”荣誉称号。
-    	</div>
+
+			<p>张家界是湖南省辖地级市，原名大庸市，辖2个市辖区（永定区、武陵源区）、2个县（慈利县、桑植县）。位于湖南西北部，澧水中上游，属武陵山区腹地。 张家界因旅游建市，是中国最重要对旅游城市之一，是湘鄂渝黔革命根据地对发源地和中心区域。
+			</p>
+			<p>
+				1982年9月，张家界国家森林公园成为中国第一个国家森林公园。</p>
+
+			<p>1988年8月，张家界武陵源风景名胜区被列入国家重点风景名胜区；1992年，由张家界国家森林公园等三大景区构成对武陵源风景名胜区被联合国教科文组织列入《世界自然遗产名录》；2004年2月，被列入全球首批《世界地质公园》；2007年，被列入中国首批国家5A级旅游景区；2017年，被授予“国家森林城市”荣誉称号。
+			</p>
+		</div>
     </section>
     <script>
-    	var oWrap = document.getElementbyId('wrap'),
-    		oSearch = oWrap.getElementsByClassName('search');
+    	var oWrap = document.getElementById('wrap'),
+    		oSearch = document.getElementsByTagName('button')[0],
+			oChange = document.getElementsByTagName('button')[1],
+			oSeaContent = document.getElementsByTagName('input')[0],
+			ochaContent = document.getElementsByTagName('input')[1],
+			oContent = oWrap.getElementsByClassName('content')[0],
+			oText = oContent.innerHTML
+
+		;
+
+		(function fn(){
+
+		   oSearch.onclick = function (){
+		       var str = oSeaContent.value;
+		       console.log(str);
+
+		       if (str){
+
+		           let arr = oText.split(str);
+				   oText  = arr.join('<span>'+str+'</span>');
+			   }
+		   };
+		   oChange.onclick = function(){
+		       var str = oSeaContent.value;
+		       var  Rstr =ochaContent.value;
+		       if (Rstr){
+		           let  arr = oText.split(str);
+		           oText = arr.join('<span>'+Rstr+'</span>');
+			   }
+		   }
+		})();
+
     </script>
 </body>
 </html>
