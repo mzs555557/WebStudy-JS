@@ -68,11 +68,6 @@
 	.plusMinus span{
 		cursor: pointer;
 	}
-<<<<<<< HEAD
-	//下方为总价计算
-
-
-=======
     /*
 
       上方为单个商品的总价,下面为计算商品的总数量及总价格
@@ -84,7 +79,6 @@
         border: 1px solid black;
         justify-content: space-between;
     }
->>>>>>> c8cc9d064beff6aea074b4bcd0ab73497bf4cbf0
 </style>
 </head>
 <body>
@@ -144,18 +138,11 @@
 			</li>
 			<li class="countPrice">0</li>
 		</ul>
-<<<<<<< HEAD
-		<ul class="shopList">
-			<li class="count">0</li>
-			<li class="totalPrice">0</li>
-		</ul>
-=======
 
         <ul class="shopList finalCount">
             <li class="total">0</li>
             <li class="totalPrice">0</li>
         </ul>
->>>>>>> c8cc9d064beff6aea074b4bcd0ab73497bf4cbf0
 	</section>
 
 
@@ -165,21 +152,11 @@
 			aPlusMinus = document.getElementsByClassName('plusMinus'),
 			aPrice = document.getElementsByClassName('price'),
 			aCountPrice = document.getElementsByClassName('countPrice'),
-<<<<<<< HEAD
-			oCount = document.getElementsByClassName('count')[0],
-			oTotalPrice = document.getElementsByClassName('totalPrice')[0],
-
-
-    		// aSpan = aPlusMinus.getElementsByTagName('span'),
-    		// aP = aPlusMinus.getElementsByTagName('p'),
-    		
-=======
             oTotal = document.getElementsByClassName('total')[0],
     	    oTotalPrice = document.getElementsByClassName('totalPrice')[0]
             // aSpan = aPlusMinus.getElementsByTagName('span'),
     		// aP = aPlusMinus.getElementsByTagName('p'),
 
->>>>>>> c8cc9d064beff6aea074b4bcd0ab73497bf4cbf0
     		;
     		function fn(){
     			let num = 0;
@@ -203,11 +180,7 @@
                         }
 					};
 					aSpan[1].onclick = function (){
-<<<<<<< HEAD
-							num++;
-=======
 					        oTotal.innerHTML++;
->>>>>>> c8cc9d064beff6aea074b4bcd0ab73497bf4cbf0
 							aP.innerHTML++;
 							aCountPrice[j].innerHTML = (aPrice[j].innerHTML)*(aP.innerHTML);
                             oTotalPrice.innerHTML -= -(aPrice[j].innerHTML);
