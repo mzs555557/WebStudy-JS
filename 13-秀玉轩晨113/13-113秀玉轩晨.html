@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#wrap{
+		width: 500px;
+		height: 700px;
+		margin: 30px auto;
+		border: 1px solid red;
+	}
+	#wrap .search p{
+		display: inline-block;
+		width: 30%;
+		margin-left: 5%;
+		border: 1px solid red;
+
+	}
+	#wrap .content{
+		padding: 8px;
+		border: 1px solid red;
+	}
+</style>
+</head>
+<body>
+    <section id="wrap">
+    	<div class="search">
+    		<p contenteditable="true"></p>
+    		<button>查找</button>
+    		<p contenteditable="true"></p>
+    		<button>替换</button>
+    	</div>
+    	<div class="content">
+    		张家界是湖南省辖地级市，原名大庸市，辖2个市辖区（永定区、武陵源区）、2个县（慈利县、桑植县）。位于湖南西北部，澧水中上游，属武陵山区腹地。 [1]  张家界因旅游建市，是中国最重要的旅游城市之一，是湘鄂渝黔革命根据地的发源地和中心区域。
+			1982年9月，张家界国家森林公园成为中国第一个国家森林公园。
+			1988年8月，张家界武陵源风景名胜区被列入国家重点风景名胜区；1992年，由张家界国家森林公园等三大景区构成的武陵源风景名胜区被联合国教科文组织列入《世界自然遗产名录》；2004年2月，被列入全球首批《世界地质公园》；2007年，被列入中国首批国家5A级旅游景区。 [2]  2017年，被授予“国家森林城市”荣誉称号。
+    	</div>
+    </section>
+    <script>
+    	var oWrap = document.getElementbyId('wrap'),
+    		oSearch = oWrap.getElementsByClassName('search');
+    </script>
+</body>
+</html>
