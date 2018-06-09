@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec8ee414-440d-4e9e-a9be-a588f43d7161" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,17 @@
       <file leaf-file-name="14-秀玉轩辰113.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1068">
-              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+            <state relative-caret-position="441">
+              <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13-113秀玉轩晨.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -35,6 +43,14 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.content</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#content</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,9 +75,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-296" />
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1844" />
+    <option name="y" value="128" />
     <option name="width" value="1697" />
     <option name="height" value="695" />
   </component>
@@ -147,18 +163,18 @@
       <workItem from="1528461376749" duration="177000" />
       <workItem from="1528461599321" duration="132000" />
       <workItem from="1528462308581" duration="22000" />
-      <workItem from="1528509763281" duration="2911000" />
+      <workItem from="1528509763281" duration="22144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36172000" />
+    <option name="totallyTimeSpent" value="55405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1844" y="128" width="1697" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.109077595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08863772" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.006482982" />
@@ -397,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/五子棋/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -421,13 +430,29 @@
     <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/s5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/s3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/m5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1068">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        <state relative-caret-position="441">
+          <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
         </state>
       </provider>
     </entry>

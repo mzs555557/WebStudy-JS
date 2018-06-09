@@ -28,12 +28,10 @@
 	}
 	#wrap .content{
 		padding: 8px;
+		font-size: 24px;
 		border: 1px solid red;
 	}
-	#wrap .content{
-		font-size: 24px;
-	}
-	#wrap .content span{
+	span{
 		color: #ff0000;
 	}
 </style>
@@ -50,10 +48,7 @@
 
 			<p  class="content">
 				张家界是湖南省辖地级市，原名大庸市，辖2个市辖区（永定区、武陵源区）、2个县（慈利县、桑植县）。位于湖南西北部，澧水中上游，属武陵山区腹地。 张家界因旅游建市，是中国最重要对旅游城市之一，是湘鄂渝黔革命根据地对发源地和中心区域。
-
-
 				1982年9月，张家界国家森林公园成为中国第一个国家森林公园。
-
 			1988年8月，张家界武陵源风景名胜区被列入国家重点风景名胜区；1992年，由张家界国家森林公园等三大景区构成对武陵源风景名胜区被联合国教科文组织列入《世界自然遗产名录》；2004年2月，被列入全球首批《世界地质公园》；2007年，被列入中国首批国家5A级旅游景区；2017年，被授予“国家森林城市”荣誉称号。
 			</p>
 
@@ -72,22 +67,27 @@
 		(function fn(){
 
 		   oSearch.onclick = function (){
-		       var str = oSeaContent.value.trim();
+		       let str = oSeaContent.value;
 		       console.log(str);
 		       if (str){
-				   oText  = oText.split(str).join("<span>"+str+"</span>");
+				   oText  = oContent.innerHTML.split(str).join("<span>"+str+"</span>");
 				   console.log(oText);
 			   }
 		   };
+
+
+
 		   oChange.onclick = function(){
-		       var str = oSeaContent.value.trim();
-		       var  Rstr =ochaContent.value.trim();
+		       let str = oSeaContent.value;
+		       let  Rstr =ochaContent.value;
 		       if (Rstr&&str){
-		           oText = oText.split(str).join("<span>"+Rstr+"</span>");
+		           oText = oContent.innerHTML.split(str).join('<span>' +Rstr+'<span>');
                    console.log(oText);
+
 			   }
 		   }
 		})();
+
 
     </script>
 </body>
