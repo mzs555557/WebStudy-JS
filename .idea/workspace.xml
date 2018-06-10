@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec8ee414-440d-4e9e-a9be-a588f43d7161" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" afterDir="false" />
     </list>
@@ -17,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="14-秀玉轩辰113.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13-113秀玉轩晨.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="13-113秀玉轩晨.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="1125">
+              <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -61,8 +53,8 @@
         <option value="$PROJECT_DIR$/08-秀玉轩辰113/08-113秀玉轩辰.html" />
         <option value="$PROJECT_DIR$/10-秀玉轩晨113/10-秀玉轩晨113-新.html" />
         <option value="$PROJECT_DIR$/12-秀玉轩晨113/12-秀玉轩晨113.html" />
-        <option value="$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html" />
         <option value="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" />
+        <option value="$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html" />
       </list>
     </option>
   </component>
@@ -75,9 +67,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1844" />
-    <option name="y" value="128" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-568" />
+    <option name="y" value="161" />
     <option name="width" value="1697" />
     <option name="height" value="695" />
   </component>
@@ -86,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,19 +89,12 @@
             <path>
               <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="14-秀玉轩辰113" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="14-秀玉轩辰113" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="13-秀玉轩晨113" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,24 +150,26 @@
       <workItem from="1528461599321" duration="132000" />
       <workItem from="1528462308581" duration="22000" />
       <workItem from="1528509763281" duration="22144000" />
+      <workItem from="1528544748748" duration="857000" />
+      <workItem from="1528546199891" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55405000" />
+    <option name="totallyTimeSpent" value="56267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1844" y="128" width="1697" height="695" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08863772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.088579796" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.006482982" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.006482982" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -192,25 +180,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.121522695" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.006482982" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -219,6 +188,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4370">
+          <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/五子棋/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -427,32 +417,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/s5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
+    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="133">
+          <caret line="214" column="41" lean-forward="true" selection-start-line="214" selection-start-column="41" selection-end-line="214" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/s3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/images/m5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html">
+    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
+        <state relative-caret-position="1125">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
         </state>
       </provider>
     </entry>

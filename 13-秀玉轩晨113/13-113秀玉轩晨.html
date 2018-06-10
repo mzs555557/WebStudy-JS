@@ -65,7 +65,6 @@
 		;
 
 		(function fn(){
-
 		   oSearch.onclick = function (){
 		       let str = oSeaContent.value;
 		       console.log(str);
@@ -74,16 +73,12 @@
 				   console.log(oText);
 			   }
 		   };
-
-
-
 		   oChange.onclick = function(){
 		       let str = oSeaContent.value;
 		       let  Rstr =ochaContent.value;
 		       if (Rstr&&str){
 		           oText = oContent.innerHTML.split(str).join('<span>' +Rstr+'<span>');
                    console.log(oText);
-
 			   }
 		   }
 		})();
