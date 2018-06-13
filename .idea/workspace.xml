@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec8ee414-440d-4e9e-a9be-a588f43d7161" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/16-秀玉轩辰113/16-113秀玉轩辰.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-秀玉轩辰113/16-113xiuyuxuanchen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-秀玉轩辰113/17-秀玉轩辰113.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +21,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="16-113秀玉轩辰.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="16-113秀玉轩辰.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/16-秀玉轩辰113/16-113秀玉轩辰.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
+            <state relative-caret-position="3021">
+              <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17-秀玉轩辰113.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/17-秀玉轩辰113/17-秀玉轩辰113.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16-113xiuyuxuanchen.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/16-秀玉轩辰113/16-113xiuyuxuanchen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -59,6 +77,8 @@
         <option value="$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html" />
         <option value="$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html" />
         <option value="$PROJECT_DIR$/16-秀玉轩辰113/16-113秀玉轩辰.html" />
+        <option value="$PROJECT_DIR$/17-秀玉轩辰113/17-秀玉轩辰113.html" />
+        <option value="$PROJECT_DIR$/16-秀玉轩辰113/16-113xiuyuxuanchen.html" />
       </list>
     </option>
   </component>
@@ -81,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,34 +114,10 @@
               <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
               <item name="16-秀玉轩辰113" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="17-秀玉轩辰113" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="html5实现的中国象棋游戏" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="html5实现的中国象棋游戏" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="html5实现的中国象棋游戏" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="stype_1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,11 +181,14 @@
       <workItem from="1528769533908" duration="2297000" />
       <workItem from="1528772853213" duration="954000" />
       <workItem from="1528776737257" duration="2926000" />
+      <workItem from="1528804159953" duration="4276000" />
+      <workItem from="1528819103682" duration="213000" />
+      <workItem from="1528892229489" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75585000" />
+    <option name="totallyTimeSpent" value="80121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -220,6 +220,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/16-秀玉轩辰113/16-113秀玉轩辰.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2451">
+          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/16-秀玉轩辰113/16-113秀玉轩辰.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
@@ -505,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/play.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="184" column="33" lean-forward="true" selection-start-line="184" selection-start-column="33" selection-end-line="184" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/17-秀玉轩辰113/JSON-js/json_parse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3021" />
@@ -531,26 +531,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/17-秀玉轩辰113/JSON-js/json2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-414" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/img/stype_1/b_x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/img/stype_1/r_box.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/img/stype_1/dot.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/16-秀玉轩辰113/16-113秀玉轩辰.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
+        <state relative-caret-position="3021">
+          <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="184" column="33" lean-forward="true" selection-start-line="184" selection-start-column="33" selection-end-line="184" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret column="143867" lean-forward="true" selection-start-column="143867" selection-end-column="143867" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-秀玉轩辰113/17-秀玉轩辰113.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16-秀玉轩辰113/16-113xiuyuxuanchen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
         </state>
       </provider>
     </entry>
