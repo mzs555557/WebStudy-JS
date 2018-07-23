@@ -91,7 +91,7 @@ bill.setBox = function (bl,initMap){
 			doms[i].addEventListener("click", function(e) {
 				
 			var inx = this.getAttribute("id").split("_")[1];
-			bill.setMove (bl , inx , initMap)
+			bill.setMove (bl , inx , initMap);
 			com.show();
 		})
 	}

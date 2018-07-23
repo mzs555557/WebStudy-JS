@@ -67,7 +67,9 @@
     <style>
         #wrap{
             position: absolute;
+            top: 0;
             left: 0;
+
             width: 100px;
             height: 100px;
             background-color: #ff3b5b;
@@ -80,14 +82,22 @@
 
     /*
         时间版运动框架
+        @author
+            mzs555557
         @param
             obj -- object 对象
             attr --- String 运动属性字符串
             target -- number 目标位置数值
             time -- number 时间
+            tw -- 选择运动曲线 String
+            t -- 已运动的时间
+            b -- 起始位置
+            c -- 运动路程
+            d -- 运动时间
         @return
-            undefined
-
+            function
+*/
+    /*
         var move = (function(){
             var Tween = {
                 linear: function (t, b, c, d){  //匀速
@@ -358,17 +368,25 @@
 
         };
 
-        return function (obj , attr ,target , time){
-            //获得attr初始数值
+        return function (obj , mJson , time ,tw){
+            tw = tw || "easeBoth";
+            //获得属性初始值 与 总位移
 
-            var startVal = parseFloat((obj.currentStyle || getComputedStyle(obj))[attr]);
+            var sVal ={};
+            var S = {};
+            for (var attr in mJson){
+                sVal[attr] = parseFloat((obj.currentStyle || getComputedStyle(obj))[attr]);
+                S[attr] = mJson[attr] - sVal[attr];
+            }
+
+
+//            var startVal = parseFloat((obj.currentStyle || getComputedStyle(obj))[attr]);
             //计算总位移
-            var S = target - startVal;
+            //var S = target - startVal;
             //得到初始时间
-
             var sTime =  new Date();
-
             !function m(){
+                //已经经过的时间
                 var s_ = new  Date() - sTime;
 
                 if (s_ >= time){
@@ -377,14 +395,25 @@
                     requestAnimationFrame(m);
                 }
 
-               obj.style[attr] = Tween.backBoth(s_ , startVal , S , time) + 'px';
+                // obj.style[attr] = Tween[tw](s_ , startVal , S , time) + 'px';
 
+                for (var key in mJson){
+                    obj.style[key] = Tween[tw](s_ ,sVal[attr] , S[attr] ,time) + 'px';
+                }
             }();
         }
     })();
+    const oWrap = document.getElementById('wrap');
+    move(oWrap ,{
+        left:200,
+        top: 500
+    }, 5000,"");
 
-    var oWrap = document.getElementById('wrap');
-    move(oWrap ,"left" , 800 , 5000);
+   /* sTime.onmouseleave =()=>{
+
+
+    }
+    */
     /*
         function move(obj , attr , target , time){
         var objStyle = obj.currentStyle || getComputedStyle(obj);
@@ -404,6 +433,8 @@
         })();
     }
     */
+
+
 </script>
 
 </body>

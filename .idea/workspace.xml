@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec8ee414-440d-4e9e-a9be-a588f43d7161" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/19-秀玉轩辰113/19-秀玉轩辰113.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20-113秀玉轩辰/20-113秀玉轩辰-新.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20-113秀玉轩辰/20-113秀玉轩辰.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-113秀玉轩辰/21-113秀玉轩辰.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22-113秀玉轩辰/22-113秀玉轩辰.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23-秀玉轩辰/23-秀玉轩辰.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24-秀玉轩辰/24-秀玉轩辰.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculate/Calzulator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22-113秀玉轩辰/22-113秀玉轩辰.html" beforeDir="false" afterPath="$PROJECT_DIR$/22-113秀玉轩辰/22-113秀玉轩辰.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5实现的中国象棋游戏/js/bill.js" beforeDir="false" afterPath="$PROJECT_DIR$/html5实现的中国象棋游戏/js/bill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/五子棋/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/五子棋/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,32 +21,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FavoritesManager">
     <favorites_list name="WebStudy-JS" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="21-113秀玉轩辰.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/21-113秀玉轩辰/21-113秀玉轩辰.html">
+      <file leaf-file-name="24-秀玉轩辰.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/24-秀玉轩辰/24-秀玉轩辰.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3268">
-              <caret line="172" column="12" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
+            <state relative-caret-position="357">
+              <caret line="199" column="39" lean-forward="true" selection-start-line="199" selection-start-column="39" selection-end-line="199" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="22-113秀玉轩辰.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/22-113秀玉轩辰/22-113秀玉轩辰.html">
+      <file leaf-file-name="Calzulator.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Calculate/Calzulator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="365" column="12" selection-start-line="365" selection-start-column="12" selection-end-line="365" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="e#245#302#0" />
-                <element signature="e#318#398#0" />
-                <element signature="e#1553#7111#0" />
-                <element signature="e#7163#12256#0" />
-              </folding>
+            <state relative-caret-position="1073">
+              <caret line="66" column="6" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -61,6 +57,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.content</find>
+      <find>var</find>
     </findStrings>
     <replaceStrings>
       <replace>#content</replace>
@@ -86,6 +83,12 @@
         <option value="$PROJECT_DIR$/20-113秀玉轩辰/20-113秀玉轩辰-新.html" />
         <option value="$PROJECT_DIR$/21-113秀玉轩辰/21-113秀玉轩辰.html" />
         <option value="$PROJECT_DIR$/22-113秀玉轩辰/22-113秀玉轩辰.html" />
+        <option value="$PROJECT_DIR$/23-秀玉轩辰/23-秀玉轩辰.html" />
+        <option value="$PROJECT_DIR$/html5实现的中国象棋游戏/js/bill.js" />
+        <option value="$PROJECT_DIR$/五子棋/index.html" />
+        <option value="$PROJECT_DIR$/五子棋/js/index.js" />
+        <option value="$PROJECT_DIR$/Calculate/Calzulator.html" />
+        <option value="$PROJECT_DIR$/24-秀玉轩辰/24-秀玉轩辰.html" />
       </list>
     </option>
   </component>
@@ -99,16 +102,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="48" />
-    <option name="y" value="53" />
-    <option name="width" value="1258" />
-    <option name="height" value="717" />
+    <option name="x" value="-133" />
+    <option name="y" value="57" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,13 +123,12 @@
             <path>
               <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="22-113秀玉轩辰" type="462c0819:PsiDirectoryNode" />
+              <item name="20-113秀玉轩辰" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,7 +140,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="net.intellij.plugins.sexyeditor.SexyEditorConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Spy-js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -201,26 +204,60 @@
       <workItem from="1529565672407" duration="8045000" />
       <workItem from="1529632907551" duration="7271000" />
       <workItem from="1529660480640" duration="1515000" />
-      <workItem from="1529664442106" duration="1204000" />
+      <workItem from="1529664442106" duration="5571000" />
+      <workItem from="1529670631018" duration="666000" />
+      <workItem from="1529759271272" duration="1952000" />
+      <workItem from="1529814289468" duration="294000" />
+      <workItem from="1530535881469" duration="187000" />
+      <workItem from="1530625355303" duration="874000" />
+      <workItem from="1531139349612" duration="4680000" />
+      <workItem from="1531225927595" duration="4498000" />
+      <workItem from="1531312400187" duration="6366000" />
+      <workItem from="1531745084820" duration="2274000" />
+      <workItem from="1531904173802" duration="1253000" />
+      <workItem from="1532177540796" duration="324000" />
+      <workItem from="1532177884406" duration="5500000" />
+      <workItem from="1532235226207" duration="1388000" />
+      <workItem from="1532240352993" duration="1004000" />
+      <workItem from="1532260530018" duration="473000" />
+      <workItem from="1532261141027" duration="312000" />
+      <workItem from="1532267631939" duration="78000" />
+      <workItem from="1532267725414" duration="924000" />
+      <workItem from="1532269960767" duration="355000" />
+      <workItem from="1532330953559" duration="1164000" />
+      <workItem from="1532332140278" duration="105000" />
+      <workItem from="1532332261818" duration="208000" />
+      <workItem from="1532332485423" duration="94000" />
+      <workItem from="1532332594493" duration="5471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138051000" />
+    <option name="totallyTimeSpent" value="182862000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.18303572" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49158248" weight="0.14136904" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49702382" weight="0.32828283" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.0049261083" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5029762" side_tool="true" weight="0.32605043" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.33164984" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.021885522" />
-      <window_info id="Favorites" order="2" sideWeight="0.5008104" side_tool="true" weight="0.16666667" />
+      <window_info id="Structure" order="1" sideWeight="0.5084175" side_tool="true" weight="0.14136904" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4040404" />
+      <window_info id="Favorites" order="2" sideWeight="0.506734" side_tool="true" weight="0.14136904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -228,100 +265,60 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.14136904" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49702382" weight="0.32828283" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4040404" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5029762" side_tool="true" weight="0.32605043" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.33164984" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" sideWeight="0.5050505" side_tool="true" weight="0.16517857" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4370">
-          <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/五子棋/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/五子棋/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/五子棋/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3439">
-          <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/五子棋/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12-秀玉轩晨113/12-秀玉轩晨113.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3287">
-          <caret line="173" column="41" lean-forward="true" selection-start-line="173" selection-start-column="41" selection-end-line="173" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/五子棋/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3534">
-          <caret line="186" column="56" lean-forward="true" selection-start-line="186" selection-start-column="56" selection-end-line="186" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-113秀玉轩辰/06-113秀玉轩辰.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13-秀玉轩晨113/13-113秀玉轩晨.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/五子棋/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/五子棋/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3515">
@@ -446,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/五子棋/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/14-秀玉轩辰113/14-秀玉轩辰113.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -487,20 +477,6 @@
     <entry file="file://$PROJECT_DIR$/17-秀玉轩辰113/JSON-js/json2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-414" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/play.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="184" column="33" lean-forward="true" selection-start-line="184" selection-start-column="33" selection-end-line="184" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret column="143867" lean-forward="true" selection-start-column="143867" selection-end-column="143867" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/16-秀玉轩辰113/16-113秀玉轩辰.html">
@@ -552,33 +528,134 @@
     <entry file="file://$PROJECT_DIR$/21-113秀玉轩辰/images/0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/五子棋/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="98" column="52" lean-forward="true" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/21-113秀玉轩辰/21-113秀玉轩辰.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3268">
+        <state relative-caret-position="19">
           <caret line="172" column="12" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/22-113秀玉轩辰/22-113秀玉轩辰.html">
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="365" column="12" selection-start-line="365" selection-start-column="12" selection-end-line="365" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#245#302#0" />
-            <element signature="e#318#398#0" />
-            <element signature="e#1553#7111#0" />
-            <element signature="e#7163#12256#0" />
-          </folding>
+        <state relative-caret-position="-1064">
+          <caret column="5128" lean-forward="true" selection-start-column="5128" selection-end-column="5128" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/gambit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1824" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/gambit.all.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8379">
+          <caret line="336" column="16" lean-forward="true" selection-start-line="336" selection-start-column="16" selection-end-line="336" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/css/lanrenzhijia.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22-113秀玉轩辰/22-113秀玉轩辰.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2209">
+          <caret line="302" column="12" selection-start-line="302" selection-start-column="12" selection-end-line="302" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-秀玉轩辰/23-秀玉轩辰.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="113" column="2" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/AI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-993">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/js/bill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/五子棋/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1059">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/五子棋/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1177">
+          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2028" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5200">
+          <caret line="3016" column="4" selection-start-line="3016" selection-start-column="4" selection-end-line="3016" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculate/Calzulator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="66" column="6" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-秀玉轩辰/24-秀玉轩辰.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="199" column="39" lean-forward="true" selection-start-line="199" selection-start-column="39" selection-end-line="199" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
