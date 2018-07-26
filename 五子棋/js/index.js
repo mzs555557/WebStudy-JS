@@ -1,5 +1,5 @@
-var obox = document.getElementById("box"),
-    arr = Array.apply(null,{length:20}),
+let obox = document.getElementById("box"),
+    arr = Array.apply(null, {length: 20}),
     divWid = obox.offsetWidth / arr.length,
     oposi = obox.querySelector(".kuang .show"),
     pieces = obox.querySelector(".pieces"),
@@ -7,26 +7,26 @@ var obox = document.getElementById("box"),
     alertMove = obox.querySelector(".over"),
     alertClick = alertMove.querySelector("p"),
     boxdata = obox.querySelector(".data"),
-    juedgArr = [{y:-1},{x:1,y:-1},{x:1},{x:1,y:1},{y:1},{x:-1,y:-1},{x:-1}],
+    juedgArr = [{y: -1}, {x: 1, y: -1}, {x: 1}, {x: 1, y: 1}, {y: 1}, {x: -1, y: -1}, {x: -1}],
     movepiece = null,                       //储存跟随鼠标移动的棋子
     reserveCoor = null,                     //储存移动时候最后的一个坐标
     pieceCoor = {},                         //储存棋子的坐标
-    resCoorOne = [],                        //储存黑棋的坐标    
+    resCoorOne = [],                        //储存黑棋的坐标
     resCoorTwo = [],                        //储存白棋的坐标
     storeCoor = [],                         //储存棋子用来回退
-    coorColor = ["red","#000"],             //棋子颜色
+    coorColor = ["red", "#000"],             //棋子颜色
     definultColor = null,
     definultJuedg = true,
-    coorWid = 30/2,
+    coorWid = 30 / 2,
     fadein = true,
     victory = 5;                            //设置多少棋连在一起就结束，默认是5
 
 
 //初始化样式
-var fragment = document.createDocumentFragment();
+const fragment = document.createDocumentFragment();
 arr.forEach(function(value,indexOne){
     arr.forEach(function(value,indexTwo){
-        var odiv = document.createElement("div");
+        const odiv = document.createElement("div");
         odiv.classList.add("float");
         odiv.setAttribute("coordinate",indexOne+"-"+indexTwo);
         fragment.appendChild(odiv);
@@ -34,24 +34,24 @@ arr.forEach(function(value,indexOne){
 });
 boxdata.appendChild(fragment);
 
-var boxInit = function(){
+const boxInit = function () {
     movepie.style.backgroundColor = coorColor[0];
 
     //按x键悔棋
-    document.addEventListener("keyup",docuKeyup);
+    document.addEventListener("keyup", docuKeyup);
 
     //obox的移动事件委托
-    obox.addEventListener("mousemove",boxmove);
+    obox.addEventListener("mousemove", boxmove);
 
     //obox的点击实践委托
-    obox.addEventListener("click",boxclick);
+    obox.addEventListener("click", boxclick);
 };
 boxInit();
 
 //创造棋子
 function createReserve(red,coor){
     coor = coor.split("-");
-    var odiv = document.createElement("div");
+    const odiv = document.createElement("div");
     odiv.classList.add("pieces-coor");
     odiv.style.backgroundColor = red;
     odiv.style.top = coor[0] * divWid - coorWid+"px";
@@ -69,20 +69,20 @@ obox.addEventListener("mouseleave",function(){
     movepie.style.opacity = 0;
     oposi.style.opacity = 0;
 });
-
 //判断是否游戏结束
 function juedgVictory(bool){
-    var arr = bool?resCoorOne:resCoorTwo;
-    var someJuedg = arr.some(function(valueOne){
-        return juedgArr.some(function(valueTwo){
+    const arr = bool ? resCoorOne : resCoorTwo;
+    const someJuedg = arr.some(function (valueOne) {
+        return juedgArr.some(function (valueTwo) {
             var str = valueOne.split("-"),
                 coorX = parseInt(str[1]),
                 coorY = parseInt(str[0]),
                 x = valueTwo.x || 0,
                 y = valueTwo.y || 0;
-            return Array.apply(null,{length:victory-1}).every(function(value){
-                coorX += x;coorY += y;
-                return arr.indexOf(coorY+"-"+coorX) >=  0;
+            return Array.apply(null, {length: victory - 1}).every(function (value) {
+                coorX += x;
+                coorY += y;
+                return arr.indexOf(coorY + "-" + coorX) >= 0;
             });
         });
     });
@@ -126,7 +126,7 @@ function docuKeyup(e){
     if(e.keyCode === 88){
         if(!storeCoor.length)return;
         //储存坐标和棋子对象的回退
-        var popmove = storeCoor.pop();
+        const popmove = storeCoor.pop();
         for(var key in popmove){
             var one = resCoorOne.indexOf(key);
             var two = resCoorTwo.indexOf(key);
@@ -196,7 +196,7 @@ function boxmove(e){
         return a[0] - b[0];
     })[0][1];
     reserveCoor = minXY.join("-");
-    var oposiLate = minXY.map(function(value,index){
+    const oposiLate = minXY.map(function (value, index) {
         return (value * divWid) - (oposi.offsetWidth / 2);
     });
     oposi.style.transform = "translate("+oposiLate[1]+"px,"+oposiLate[0]+"px)";

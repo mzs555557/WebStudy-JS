@@ -83,7 +83,7 @@ AI.getMapAllMan = function (map, my){
 	for (var i=0; i<map.length; i++){
 		for (var n=0; n<map[i].length; n++){
 			var key = map[i][n];
-			if (key && play.mans[key].my == my){
+			if (key && play.mans[key].my === my){
 				play.mans[key].x = n;
 				play.mans[key].y = i;
 				mans.push(play.mans[key])

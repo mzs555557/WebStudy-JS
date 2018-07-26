@@ -189,7 +189,7 @@
         console.log(b);
     };
     e(1,2,3);
-    */
+
     let c = 5;
     function fn( a , b = c) {
         console.log(b);
@@ -198,7 +198,29 @@
     ~function () {
         console.log(window.innerWidth);
         console.log(window.outerWidth);
+        console.log(window.getComputedStyle);
     }();
+    (function f(){
+
+    })();
+    */
+
+    class tab{
+        constructor(titName, conName){
+            this.tit = [...document.getElementsByClassName(titName)];
+            this.con = [...document.getElementsByClassName(conName)];
+            this.tit.forEach((v,i) => {
+                let children = [...v.children];
+                children.index =0;
+                let cC = this.con[i].children;
+                children.forEach((v,i,a) =>{
+                    if (i !== a.index){
+                        a[a.idx].classList.remove("cur")
+                    }
+                })
+            })
+        }
+    }
 </script>
 </body>
 </html>
