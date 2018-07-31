@@ -65,8 +65,18 @@
     </style>
 </head>
 <body>
-<script type="text/javascript">
-
+<div id="box"></div>
+<script>
+    const arr = {
+        width: 100,
+        height: 100,
+        background: "black"
+    };
+    const arr1 = ['height' , 'width' , 'background'];
+    for (let key in arr){
+        console.log(arr1.indexOf(key));
+        // console.log(arr[key]);
+    }
 </script>
 </body>
 </html>
