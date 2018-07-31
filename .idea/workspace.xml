@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec8ee414-440d-4e9e-a9be-a588f43d7161" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/35秀玉轩辰/35-讲解.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/35秀玉轩辰/homeWork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/35秀玉轩辰/秀玉轩辰.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/36秀玉轩辰/RunningBall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/36秀玉轩辰/test36.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/36秀玉轩辰/秀玉轩辰.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/37秀玉轩辰/37.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/37秀玉轩辰/HomeWork.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17-秀玉轩辰113/JSON-js" beforeDir="false" afterPath="$PROJECT_DIR$/17-秀玉轩辰113/JSON-js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/28秀玉轩辰/秀玉轩辰.html" beforeDir="false" afterPath="$PROJECT_DIR$/28秀玉轩辰/秀玉轩辰.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculate/Calzulator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Calculate/Calzulator.html" afterDir="false" />
-    </list>
+    <list default="true" id="ec8ee414-440d-4e9e-a9be-a588f43d7161" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,39 +23,43 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="12" />
-          <entry key="project.open.time.7" value="12" />
+          <entry key="project.open.time.7" value="13" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="24456" />
-          <entry key="js" value="53" />
+          <entry key="js" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="24456" />
-          <entry key="JavaScript" value="53" />
+          <entry key="JavaScript" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="78" />
+          <entry key="css" value="1" />
+          <entry key="html" value="79" />
           <entry key="jpg" value="6" />
-          <entry key="js" value="12" />
+          <entry key="js" value="14" />
           <entry key="json" value="2" />
+          <entry key="md" value="1" />
           <entry key="png" value="9" />
           <entry key="ts" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="78" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="79" />
           <entry key="Image" value="15" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="14" />
+          <entry key="Markdown" value="1" />
           <entry key="TypeScript" value="8" />
         </counts>
       </usages-collector>
@@ -78,26 +69,7 @@
     <favorites_list name="WebStudy-JS" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/35秀玉轩辰/35-讲解.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/35秀玉轩辰/homeWork.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="453" column="16" lean-forward="true" selection-start-line="453" selection-start-column="16" selection-end-line="453" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,6 +130,7 @@
         <option value="$PROJECT_DIR$/36秀玉轩辰/RunningBall.html" />
         <option value="$PROJECT_DIR$/35秀玉轩辰/35-讲解.html" />
         <option value="$PROJECT_DIR$/35秀玉轩辰/homeWork.html" />
+        <option value="$PROJECT_DIR$/MineClearance-master/myTools.js" />
       </list>
     </option>
   </component>
@@ -179,48 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="34-秀玉轩辰" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="35秀玉轩辰" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="35秀玉轩辰" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="36秀玉轩辰" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="37秀玉轩辰" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculate" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -237,6 +168,42 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
+              <item name="34-秀玉轩辰" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
+              <item name="36秀玉轩辰" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
+              <item name="37秀玉轩辰" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebStudy-JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebStudy-JS" type="462c0819:PsiDirectoryNode" />
+              <item name="MineClearance-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +215,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -383,11 +350,12 @@
       <workItem from="1532962428466" duration="662000" />
       <workItem from="1532964197278" duration="4000" />
       <workItem from="1532999738257" duration="19223000" />
+      <workItem from="1533027083875" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="409037000" />
+    <option name="totallyTimeSpent" value="409632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,7 +368,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.51085144" side_tool="true" weight="0.07440476" />
       <window_info id="Favorites" order="1" sideWeight="0.506734" side_tool="true" weight="0.14136904" />
@@ -419,7 +386,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.4891486" visible="true" weight="0.12556732" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.4891486" visible="true" weight="0.12708019" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.14136904" />
@@ -474,29 +441,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/19-秀玉轩辰113/19-秀玉轩辰113.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20-113秀玉轩辰/20-113秀玉轩辰-新.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21-113秀玉轩辰/images/01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21-113秀玉轩辰/images/0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/css/lanrenzhijia.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5实现的中国象棋游戏/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-267">
@@ -755,17 +699,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/35秀玉轩辰/35-讲解.html">
+    <entry file="file://$PROJECT_DIR$/35秀玉轩辰/homeWork.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="-3851">
+          <caret line="410" column="58" selection-start-line="410" selection-start-column="58" selection-end-line="410" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/35秀玉轩辰/homeWork.html">
+    <entry file="file://$PROJECT_DIR$/MineClearance-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MineClearance-master/mineClearance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="453" column="16" lean-forward="true" selection-start-line="453" selection-start-column="16" selection-end-line="453" selection-end-column="16" />
+        <state relative-caret-position="-743">
+          <caret line="654" column="26" selection-start-line="654" selection-start-column="26" selection-end-line="654" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MineClearance-master/mineClearance.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7463" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MineClearance-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MineClearance-master/myTools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3191">
+          <caret line="331" column="34" lean-forward="true" selection-start-line="331" selection-start-column="34" selection-end-line="331" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35秀玉轩辰/35-讲解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
