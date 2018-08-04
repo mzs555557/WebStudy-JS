@@ -3,6 +3,7 @@
     <words>
       <w>blueviolet</w>
       <w>boxdata</w>
+      <w>conver</w>
       <w>coord</w>
       <w>keypress</w>
       <w>keyup</w>
@@ -12,7 +13,10 @@
       <w>mousemove</w>
       <w>mouseup</w>
       <w>mousewheel</w>
+      <w>movepieces</w>
+      <w>onblur</w>
       <w>oncontextmenu</w>
+      <w>onfocus</w>
       <w>onkeydown</w>
       <w>onload</w>
       <w>onmousedown</w>

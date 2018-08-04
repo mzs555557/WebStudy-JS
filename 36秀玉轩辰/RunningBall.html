@@ -151,6 +151,7 @@
         const style_arr = ['width' , 'height' , 'left' , 'top' ];// 属性
         for (let key in arr) {
             if (style_arr.indexOf(key) !== -1) {
+                // console.log(style_arr[key]);
                 ele.style[key] = arr[key] + 'px';
             } else {
                 ele.style[key] = arr[key];

@@ -76,7 +76,7 @@
         \D 非数字
         \s 空格
         \S 非空格
-        \w 字符(数字,字母)
+        \w 字符(数字,字母,_)
         \W 非\w所匹配范围
         \b 单词边界,就是指单词和空格之间的位置
            .  除换行符之外的所有字符都是他的匹配范围
@@ -97,10 +97,10 @@
         \r 回车符
 
      */
-    // \d[0-9]
+        // \d[0-9]
   //  let obj = {a:1};
 
-  /*  const str1 = "tanuuzhou\\uu12";
+    /*  const str1 = "tanuuzhou\\uu12";
 
     let  reg1 = /\u{2,9}?/;
 
@@ -109,7 +109,7 @@
     //    console.log(JSON.stringify(obj));
     */
 
-  // const str = "TAN\nZHOU";
+     // const str = "TAN\nZHOU";
   //
   // let reg = /^Z/img;
   //
@@ -118,7 +118,7 @@
   //
   // console.log(a);
 
-   /* let str = "风屿帅逼怪了";
+    /* let str = "风屿帅逼怪了";
 
     let reg = /(风屿)(帅逼)(怪了)/g;
 
@@ -203,7 +203,7 @@
     (function f(){
 
     })();
-    */
+
 
     class tab{
         constructor(titName, conName){
@@ -221,6 +221,105 @@
             })
         }
     }
+
+    const str = "0123456789";
+    let reg = /0123456789/;
+    // let reg = new RegExp("012356789");
+    console.log(reg.test(str));
+
+    let obj = "{\"a\":\"1\"}";
+    console.log(obj);
+    console.log(JSON.parse(obj));
+
+    let str1 = "H";
+    let reg1 = /\D/;
+
+    console.log(reg1.test(str1));
+    */
+
+    /*
+        const str = "wulianwang12312321312312";
+        let reg = /\w/g;
+        /*
+        /i  表示匹配的时候不区分大小写
+        /g 表示该表达式将用来在输入字符串中查找所有可能的匹配，返回的结果可以是多个。如果不加/g最多只会匹配一个
+        /m 表示多行匹配，什么是多行匹配呢？就是匹配换行符两端的潜在匹配。影响正则中的^$符号
+        **
+        let reg1 = /^wui/;
+        let a = str.match(reg);
+        console.log(a);
+        // 贪婪非贪婪匹配
+        // console.log("\313");
+
+    //中文[\u4e00 - \u9fa5]
+    let str = "物联科技";
+
+    let reg = /(.{2})(.{2})/g;
+
+    let s1 = str.replace(reg,"$2--$1");
+
+    console.log(s1);
+
+    function isFloat(n) {
+        n += ""
+        const reg = /^(-?)\d+\.\d+$/;
+        if (reg.test(n)) {
+            return "是"
+        } else {
+            return "否"
+        }
+    }
+    console.log(isFloat(+123.00));
+
+
+    function isChina(n) {
+        return /^[\u4e00-\u9fa5]{2,5}$/.test(n);
+    }
+
+    console.log(isChina("头条你你你你你"));
+    function isEmail(n) {
+        return /^\w{5,18}@[0-9a-z]{1,4}\.[a-z]{2,6}$/.test(n);
+    }
+    console.log(isEmail("wwwwww@qq.com"));
+
+    const obj = {
+        length: 0,
+        addElem: function addElem(elem){
+            [].push.call(this,elem);
+        }
+    };
+    obj.addElem({a:3});
+    obj.addElem({b:4});
+    console.log(obj.length);
+    */
+
+    /*
+    let str = "asdasd";
+    let reg = /[^a]+/g;
+    console.log(str.match(reg));
+
+
+    let str = "1112233334445555";
+    let reg = /(\d)\1+/g;
+    console.log(str.match(reg));
+    */
+    /*
+        (?=模式)
+            零宽度正预测先行断言,正向肯定预查
+        (?!模式)
+            正向否定预查  //查找后面的部分
+           (?<=)
+           反向肯定 //查找前面的部分
+           ?<!
+           反向否定
+
+    let str1 = "fengyu123";
+    let str2 = "fengyu456";
+    let reg = /fengyu(?=123|456)/;
+    console.log(str1.replace(reg, '$1'));
+    console.log(reg.test(str1));
+    */
+
 </script>
 </body>
 </html>

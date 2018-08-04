@@ -1,0 +1,24 @@
+{
+  "name": "use",
+  "version": "1.0.0",
+  "description": "jquery",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "koa": "^2.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzs555557/WebStudy-JS.git"
+  },
+  "author": "mzs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mzs555557/WebStudy-JS/issues"
+  },
+  "homepage": "https://github.com/mzs555557/WebStudy-JS#readme"
+}
