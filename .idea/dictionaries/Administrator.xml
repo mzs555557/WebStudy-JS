@@ -3,8 +3,19 @@
     <words>
       <w>blueviolet</w>
       <w>boxdata</w>
+      <w>contentlist</w>
       <w>conver</w>
       <w>coord</w>
+      <w>enemys</w>
+      <w>enmuerate</w>
+      <w>enmuerates</w>
+      <w>errmsg</w>
+      <w>errno</w>
+      <w>fengyu</w>
+      <w>grenier</w>
+      <w>inet</w>
+      <w>jsonp</w>
+      <w>jsonpcallback</w>
       <w>keypress</w>
       <w>keyup</w>
       <w>mousedown</w>
@@ -18,6 +29,7 @@
       <w>oncontextmenu</w>
       <w>onfocus</w>
       <w>onkeydown</w>
+      <w>onkeyup</w>
       <w>onload</w>
       <w>onmousedown</w>
       <w>onmousemove</w>
@@ -27,6 +39,7 @@
       <w>onresize</w>
       <w>onscroll</w>
       <w>opction</w>
+      <w>sigusr</w>
       <w>transitionend</w>
       <w>typefn</w>
     </words>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap-theme.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
@@ -8,65 +9,24 @@
             margin: 0;
             padding: 0
         }
-
-        table {
-            border-collapse: collapse;
-            border-spacing: 0
+        #hd {
+            width: 70%;
+            height: 200px;
+            margin:  50px auto;
+            border: 1px solid mediumpurple;
         }
 
-        fieldset, img {
-            border: 0
-        }
-
-        address, caption, cite, code, dfn, em, strong, th, var {
-            font-style: normal;
-            font-weight: normal
-        }
-
-        ol, ul {
-            list-style: none
-        }
-
-        caption, th {
-            text-align: left
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-size: 100%;
-            font-weight: normal
-        }
-
-        q:before, q:after {
-            content: ''
-        }
-
-        abbr, acronym {
-            border: 0;
-            font-variant: normal
-        }
-
-        sup {
-            vertical-align: text-top
-        }
-
-        sub {
-            vertical-align: text-bottom
-        }
-
-        input, textarea, select {
-            font-family: inherit;
-            font-size: inherit;
-            font-weight: inherit
-        }
-
-        input, textarea, select {
-            *font-size: 100%
-        }
     </style>
 </head>
 <body>
-<script type="text/javascript">
-
-</script>
+<div id="hd">
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="inputPassword2" class="sr-only"></label>
+            <input type="password" class="form-control" id="inputPassword2" placeholder="请输入班级号">
+        </div>
+        <button type="submit" class="btn btn-default">查询信息</button>
+    </form>
+</div>
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <style>
         body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
             margin: 0;
@@ -147,8 +148,8 @@
 </head>
 <body>
 <div id="wrap">
-    <span><</span>
-    <span>></span>
+    <span class="left"><</span>
+    <span class="right">></span>
     <ul class="choice">
         <li class="active"></li>
         <li></li>
@@ -172,7 +173,7 @@
 //window.cancelAnimationFrame = window.cancelAnimationFrame||clearTimeout;
 (function(){
 
-
+/*
    var oWrap = document.getElementById('wrap'),
        aSpan = oWrap.getElementsByTagName('span'),
        oChoice = oWrap.getElementsByClassName('choice')[0],
@@ -182,7 +183,7 @@
        order = 0
    ;
    /*function banning(){
-   }*/
+   }
    setInterval(function(){
        if (order>=5) {order = -1;}
        order++;
@@ -199,6 +200,10 @@
    function getStyle(obj){
        return obj.currentStyle || getComputedStyle(obj);
    }
+   */
+
+
+
 })();
 </script>
 </body>
